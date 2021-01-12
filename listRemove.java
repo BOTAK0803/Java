@@ -34,12 +34,12 @@ class Solution{
 		解决这个问题，方法2:每移除一个元素以后再把i移回来
 		*/
 		for(int i:a) arr.add(i);
-		System.out.println("tets 2 ,from n to 0 , before remove , the arr`s length is "+arr.size());
+		System.out.println("tets 3 , modify i , before remove , the arr`s length is "+arr.size());
 		for(int i = 0;i<arr.size();i++) {
 			arr.remove(i);
 			i-=1;
 		}
-		System.out.println("test 2 , from n to 0 , after remove , the arr`s length is "+arr.size());
+		System.out.println("test 3 , modify i , , after remove , the arr`s length is "+arr.size());
 
 		
 	}
